@@ -3,7 +3,7 @@
     "httpMethod": "POST",
     "headers": {
         "Accept": "*/*",
-        "Authorization": "eyJraWQiOiJLTAAZsdRs",
+        "Authorization": "eyJraWQiOiJLTzRVMWZs",
         "content-type": "application/json; charset=UTF-8"
     },
     "queryStringParameters": null,
@@ -11,9 +11,9 @@
     "requestContext": {
         "authorizer": {
             "claims": {
-                "cognito:username": "visitor"
+                "cognito:username": "the_username"
             }
         }
     },
-    "body": "{\"PickupLocation\":{\"Latitude\":48.8566969,\"Longitude\":2.3514616}}"
+    "body": "{\"PickupLocation\":{\"Latitude\":47.6174755835663,\"Longitude\":-122.28837066650185}}"
 }
