@@ -1,0 +1,19 @@
+{
+    "path": "/ride",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept": "*/*",
+        "Authorization": "eyJraWQiOiJLTAAZsdRs",
+        "content-type": "application/json; charset=UTF-8"
+    },
+    "queryStringParameters": null,
+    "pathParameters": null,
+    "requestContext": {
+        "authorizer": {
+            "claims": {
+                "cognito:username": "visitor"
+            }
+        }
+    },
+    "body": "{\"PickupLocation\":{\"Latitude\":48.8566969,\"Longitude\":2.3514616}}"
+}
